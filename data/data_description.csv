@@ -1,0 +1,11 @@
+column,type,label,description
+Area Type,text,area_type,"The type of geographic area (e.g., State, County, or Metropolitan Area). "
+Area Name,text,area_name,The official name of the geographic area.
+Year,text,year,The referenced 4-digit calendar year.
+Month,text,month,Calendar month.
+Date,text,date,"The numeric day, month, and year for the reported data."
+Series Code,text,series_code,The code identifying the specific series.
+Industry Title,text,industry_title,The official industry name.
+Seasonally Adjusted (Y/N),text,seasonally_adjusted,Seasonal changes have been removed or discounted.
+Current Employment,numeric,current_employment,The number of jobs.
+Benchmark,text,,
