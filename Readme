@@ -1,43 +1,35 @@
-# California CES Analysis Dashboard
+California CES Analysis Dashboard
 
-An interactive **Streamlit-based web application** that analyzes and visualizes employment data in California from 2014 to 2024. This project enables users to explore employment trends across counties and industries, view detailed data visualizations, and predict future employment trends using regression and time series analysis.
+This project is a Streamlit-based interactive web application designed to analyze and visualize employment data in California from 2014 to 2024. It allows users to explore employment trends across different counties and industries, understand distributions, and predict future trends using regression and time series analysis.
 
----
+Features
+1. Interactive Visualizations
+Top Counties by Employment: Bar charts showcasing the top 10 counties by employment.
+Industry Distributions: Pie charts showing the distribution of industries for selected counties, grouping smaller categories as "Others."
+2. Filters and Dropdowns
+Year Filter: Choose a year between 2014 and 2024 to analyze employment data.
+Dynamic Views: Toggle between County-wise Occupation and Occupation-wise County views.
+3. Data Insights
+Detailed data tables with scrollable views for larger datasets.
+Grouped statistics for areas and industries.
+Aggregations to calculate average employment and distribution.
+4. Advanced Analysis
+Regression and time series predictions for employment trends in 2025 and beyond.
+5. Custom Background and Layout
+A visually appealing UI with customizable background images and interactive elements.
 
-## Features
+How to Use
+Launch the Streamlit app and select a section using the Sidebar Navigation:
 
-### 1. **Interactive Visualizations**
-- **Top Counties by Employment**: Bar charts showcasing the top 10 counties by employment.
-- **Industry Distributions**: Pie charts displaying the distribution of industries for selected counties, with smaller categories grouped as "Others."
+   - Introduction: Overview of California's employment and industry trends.
+   - IDA: Explore initial data analysis with tables and plots.
+   - EDA: Drill down into detailed insights using filters and interactive charts.
+   - Prediction: View predictions for employment trends in upcoming years.
+   - Use filters and dropdowns to customize the view:
 
-### 2. **Filters and Dropdowns**
-- **Year Filter**: Choose a year between 2014 and 2024 to analyze the data.
-- **Dynamic Views**: Toggle between `County-wise Occupation` and `Occupation-wise County` views.
+Select a Year or toggle between views.
+Choose specific counties or industries for in-depth analysis.
+View data insights:
 
-### 3. **Data Insights**
-- Scrollable data tables for large datasets.
-- Aggregated statistics for areas and industries, including the average employment figures.
-
-### 4. **Advanced Analysis**
-- **Prediction**: Use regression and time series models to predict employment trends for 2025 and beyond.
-
-### 5. **Customizable UI**
-- Beautiful and interactive UI with the ability to change background images and adjust layout.
-
----
-
-## Technologies Used
-
-- **Programming Language**: Python
-- **Framework**: Streamlit
-- **Visualization Libraries**: Plotly, Seaborn
-- **Data Manipulation Libraries**: Pandas, NumPy
-- **Data Source**: Employment data from the **California CES** dataset
-
----
-
-## Setup and Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/california-ces-dashboard.git
+Scroll through detailed tables.
+Interact with bar and pie charts to understand employment distributions.
