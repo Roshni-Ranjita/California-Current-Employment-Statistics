@@ -1,4 +1,5 @@
 California CES Analysis Dashboard
+app: https://california-current-employment-statistics.streamlit.app/
 
 This project is a Streamlit-based interactive web application designed to analyze and visualize employment data in California from 2014 to 2024. It allows users to explore employment trends across different counties and industries, understand distributions, and predict future trends using regression and time series analysis.
 
